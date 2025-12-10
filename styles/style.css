@@ -187,6 +187,11 @@ main {
   margin-bottom: 20px;
 }
 
+.dofamin {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
 .subsection_list {
  display: grid;
 
