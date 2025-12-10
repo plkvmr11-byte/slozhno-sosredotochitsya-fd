@@ -15,7 +15,7 @@
     --button: rgba(53, 52, 48, 1);
      --accent-color: rgba(255, 141, 203, 1);
      --title-light: rgba(255, 194, 230, 1);
-     --color-pink: rgba(255, 141, 203, 1);
+     --color: rgba(255, 141, 203, 1);
      --text: rgba(53, 52, 48, 1);
      --text-header: rgba(53, 52, 48, 1);
      --color-bg: rgba(255, 241, 247, 1);
@@ -25,16 +25,16 @@
      --button: rgba(53, 52, 48, 1);
      --link: rgba(255, 141, 203, 1);
      --hover-button: rgba(50, 49, 45, 0.4);
+    --color-subsubtitle: rgba(53, 52, 48, 1);
     }
 
     @media (prefers-color-scheme: light) {
   :root {
-    /* Дублируем только те же переменные, что и выше */
      --bg-image: url(../images/cover-image-light.png);
     --button: rgba(53, 52, 48, 1);
      --accent-color: rgba(255, 141, 203, 1);
      --title-light: rgba(255, 194, 230, 1);
-     --color-pink: rgba(255, 141, 203, 1);
+     --color: rgba(255, 141, 203, 1);
      --text: rgba(53, 52, 48, 1);
      --text-header: rgba(53, 52, 48, 1);
      --color-bg: rgba(255, 241, 247, 1);
@@ -43,5 +43,10 @@
      --color-corners: rgba(53, 52, 48, 1);
      --button: rgba(53, 52, 48, 1);
      --link: rgba(255, 141, 203, 1);
+     --color-subsubtitle: rgba(53, 52, 48, 1);
     }
   }
+
+  .theme-light .decorated_text {
+  display: none;
+}

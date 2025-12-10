@@ -8,14 +8,44 @@
   --regular-font-size: 18px;
   --accent-color: rgba(255, 0, 112, 1);
   --bg-image: url(../images/cover-image-dark.png);
-   --color-pink: rgba(255, 0, 112, 1);
-   --color-bg: rgba(0, 0, 40, 1);
-   --text: rgba(241, 178, 206, 1);
-   --text-header: rgba(0, 0, 40, 1);
-   --color-section_heading: rgba(255, 0, 112, 1);
-   --title : rgba(219, 0, 255, 1);
-   --color-corners: rgba(255, 0, 112, 1);
-   --button: rgba(255, 0, 112, 1);
-   --link:  rgba(255, 0, 112, 1);
-   --hover-button: rgba(255, 0, 112, 0.4);
+  --color: rgba(255, 0, 112, 1);
+  --color-bg: rgba(0, 0, 40, 1);
+  --text: rgba(241, 178, 206, 1);
+  --text-header: rgba(0, 0, 40, 1);
+  --color-section_heading: rgba(255, 0, 112, 1);
+  --title : rgba(219, 0, 255, 1);
+  --color-corners: rgba(255, 0, 112, 1);
+  --button: rgba(255, 0, 112, 1);
+  --link:  rgba(255, 0, 112, 1);
+  --hover-button: rgba(255, 0, 112, 0.4);
+  --color-subsubtitle: rgba(0, 0, 40, 1);
+}
+:root.theme-auto {
+  --button: rgba(53, 52, 48, 1);
+  --hover-button: rgba(50, 49, 45, 0.4);
+  --accent-color: rgba(255, 141, 203, 1);
+  --title: rgba(255, 194, 230, 1);
+  --color: rgba(255, 141, 203, 1);
+  --text: rgba(53, 52, 48, 1);
+  --text-header: rgba(53, 52, 48, 1);
+  --color-section_heading: rgba(53, 52, 48, 1);
+  --color-corners: rgba(53, 52, 48, 1);
+  --link: rgba(255, 141, 203, 1);
+  --color-subsubtitle: rgba(53, 52, 48, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root.theme-auto {
+    --button: rgba(255, 0, 112, 1);
+    --hover-button: rgba(255, 0, 112, 0.4);
+    --accent-color: rgba(255, 0, 112, 1);
+    --title: rgba(219, 0, 255, 1);
+    --color: rgba(255, 0, 112, 1);
+    --text: rgba(241, 178, 206, 1);
+    --text-header: rgba(0, 0, 40, 1);
+    --color-section_heading: rgba(255, 0, 112, 1);
+    --color-corners: rgba(255, 0, 112, 1);
+    --link: rgba(255, 0, 112, 1);
+    --color-subsubtitle: rgba(0, 0, 40, 1);
+  }
 }
