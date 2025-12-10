@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
   
 */
-:root{
+:root {
   --project-font-family: "IBM Plex Mono", "Arial", sans-serif;
   --regular-font-size: 18px;
   --accent-color: rgba(255, 0, 112, 1);
