@@ -106,7 +106,7 @@ header {
 .header__theme-menu-button_active {
   pointer-events: none; 
   border: 1px solid var(--button); 
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .header__theme-menu-button:hover {
@@ -124,7 +124,7 @@ header {
 }
 
 .theme-dark .decorated_text {
-  display: block; 
+  display: block;
 }
 
 h1 {
@@ -168,7 +168,7 @@ main {
 .content-section_img {
   display: grid;
   margin: 0 0 50px;
-  padding: 0;   
+  padding: 0;
 }
 
 .section_heading,
@@ -278,10 +278,10 @@ footer {
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 
-  header { 
-  grid-template-rows: 1fr min-content 1fr; 
+  header {
+  grid-template-rows: 1fr min-content 1fr;
   min-width: 768px;
   min-height: 1024px;
   max-height: 100vh;
@@ -301,26 +301,26 @@ footer {
 
   .decorated-zone::before {
     bottom: 2vh;
-    left: 2.5vw; 
+    left: 2.5vw;
   }
 
-  .title { 
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ; 
-    line-height: 1; 
+  .title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    line-height: 1;
     text-align: start;
     }
 
-  .text_header { 
-    max-width: 48%; 
-    justify-self: end; 
+  .text_header {
+    max-width: 48%;
+    justify-self: end;
     margin-right: 2.5vw;
     margin-top:  -3vh;
     }
 
-  .header__theme-menu { 
+  .header__theme-menu {
     justify-self: end; 
     margin-right: 2.5vw;
-    margin-top:  3vh; 
+    margin-top:  3vh;
     }
 
   .header__theme-menu-list {
@@ -342,8 +342,8 @@ footer {
     display: grid;
     margin: 0;
     column-gap: 20px;
-    max-width: none; 
-    box-sizing: border-box; 
+    max-width: none;
+    box-sizing: border-box;
   }
   
   .section_heading{
@@ -418,11 +418,21 @@ footer {
   object-fit: cover;
 }
 
-.gallery__image:nth-child(1) { grid-area: sunset; }
-.gallery__image:nth-child(2) { grid-area: ice-cream; }
-.gallery__image:nth-child(3) { grid-area: tape; }
-.gallery__image:nth-child(4) { grid-area: books; }
-.gallery__image:nth-child(5) { grid-area: street; }
+.gallery__image:nth-child(1) {
+  grid-area: sunset;
+}
+.gallery__image:nth-child(2) {
+  grid-area: ice-cream;
+}
+.gallery__image:nth-child(3) {
+  grid-area: tape;
+}
+.gallery__image:nth-child(4) {
+  grid-area: books;
+}
+.gallery__image:nth-child(5) {
+  grid-area: street;
+}
 
 footer {
   min-width: 768px;
@@ -478,7 +488,7 @@ footer {
   .text_header { 
     max-width: 48%; 
     width: auto; 
-    justify-self: end; 
+    justify-self: end;
     margin-right: 2vw;
     margin-top:  -4vh;
     } 
@@ -489,8 +499,8 @@ footer {
  
    .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
-  gap: 20px; 
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .gallery {
