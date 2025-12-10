@@ -1,4 +1,21 @@
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства
+  
 */
+:root{
+  --project-font-family: "IBM Plex Mono", "Arial", sans-serif;
+  --regular-font-size: 18px;
+  --accent-color: rgba(255, 0, 112, 1);
+  --bg-image: url(../images/cover-image-dark.png);
+   --color-pink: rgba(255, 0, 112, 1);
+   --color-bg: rgba(0, 0, 40, 1);
+   --text: rgba(241, 178, 206, 1);
+   --text-header: rgba(0, 0, 40, 1);
+   --color-section_heading: rgba(255, 0, 112, 1);
+   --title : rgba(219, 0, 255, 1);
+   --color-corners: rgba(255, 0, 112, 1);
+   --button: rgba(255, 0, 112, 1);
+   --link:  rgba(255, 0, 112, 1);
+   --hover-button: rgba(255, 0, 112, 0.4);
+}
