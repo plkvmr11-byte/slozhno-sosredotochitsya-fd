@@ -444,7 +444,7 @@ footer {
 }
 
 @media (min-width: 1024px)  { 
-  header { 
+  header {
   grid-template-rows: 1fr min-content 1fr; 
   min-width: 1024px;
   min-height: 768px;
@@ -471,7 +471,7 @@ footer {
     left: 2vw;
   }
 
-  .header__theme-menu { 
+  .header__theme-menu {
     justify-self: center; 
     grid-row: 1;
     margin: 0;
@@ -485,7 +485,7 @@ footer {
     align-self: center;
     
   }
-  .text_header { 
+  .text_header {
     max-width: 48%; 
     width: auto; 
     justify-self: end;
@@ -527,11 +527,26 @@ footer {
   object-fit: cover;
 }
 
-.gallery__image:nth-child(1) { grid-area: sunset; }
-.gallery__image:nth-child(2) { grid-area: ice-cream; }
-.gallery__image:nth-child(3) { grid-area: tape; }
-.gallery__image:nth-child(4) { grid-area: books; }
-.gallery__image:nth-child(5) { grid-area: street; }
+.gallery__image:nth-child(1) {
+  grid-area: sunset;
+}
+
+.gallery__image:nth-child(2) {
+  grid-area: ice-cream;
+}
+
+.gallery__image:nth-child(3) {
+  grid-area: tape;
+}
+
+.gallery__image:nth-child(4) {
+  grid-area: books;
+
+}
+
+.gallery__image:nth-child(5) {
+  grid-area: street;
+}
 
 footer {
   min-width: 1024px;
