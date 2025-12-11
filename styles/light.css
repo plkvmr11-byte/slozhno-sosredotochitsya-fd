@@ -45,8 +45,14 @@
      --link: rgba(255, 141, 203, 1);
      --color-subsubtitle: rgba(53, 52, 48, 1);
     }
+    .decorated_text {
+      display: none;
+      }
   }
-
-  .theme-light .decorated_text {
-  display: none;
+  .theme-light .decorated_text { 
+  display: none; 
 }
+
+
+
+
